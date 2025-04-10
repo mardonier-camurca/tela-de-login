@@ -132,10 +132,8 @@ button {
     align-items: center;
 }
 
-
-
 button:hover {
-    background-color: var(----primary-hover);
+    background-color: var(--primary-hover);
     transform: translateY(-2px);
 }
 
