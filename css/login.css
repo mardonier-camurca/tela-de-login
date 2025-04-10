@@ -169,7 +169,6 @@ button:active {
 }
 
 .social-btn {
-    
     color: var(--text-primary);
     text-decoration: none;
     display: flex;
@@ -202,3 +201,10 @@ button:active {
     font-weight: 600;
     transition: var(--transition);
 } 
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+    }
+
+}
